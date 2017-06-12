@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:map id="skills" key-type="java.lang.String" value-type="java.util.List">
+        <entry key="Programming/Markup Languages">
+            <list value-type="java.lang.String">
+                <value>Java</value>
+                <value>SQL (PL/SQL)</value>
+                <value>XML</value>
+                <value>HTML/CSS/JS</value>
+            </list>
+        </entry>
+        <entry key="Technologies">
+            <list value-type="java.lang.String">
+                <value>JavaSE</value>
+                <value>Spring</value>
+                <value>JavaEE(servlets, JDBC, JSP, JSF, CDI, JPA)</value>
+            </list>
+        </entry>
+        <entry key="Tools">
+            <list value-type="java.lang.String">
+                <value>JDK</value>
+                <value>IntelliJ IDEA</value>
+                <value>Eclipse</value>
+                <value>Maven</value>
+                <value>Ant</value>
+                <value>PL/SQL Developer</value>
+                <value>bash</value>
+                <value>nginx</value>
+                <value>Tomcat</value>
+            </list>
+        </entry>
+        <entry key="DB">
+            <list value-type="java.lang.String">
+                <value>Oracle</value>
+                <value>MySQL</value>
+            </list>
+        </entry>
+        <entry key="English">
+            <list value-type="java.lang.String">
+                <value>upper intermediate</value>
+            </list>
+        </entry>
+    </util:map>
+
+</beans>

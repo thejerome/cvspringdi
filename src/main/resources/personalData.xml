@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="customEditors.xml"/>
+
+    <bean id="personalData" class="com.efimchick.cv.PersonalData"
+          p:firstName="Evgenii"
+          p:lastName="Efimchik"
+          p:dateOfBirth="08.09.1987"
+          p:email="eugene.efimchick@gmail.com"
+          p:phone="+7(921)386-99-39"
+    />
+
+</beans>
